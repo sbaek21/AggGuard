@@ -1,0 +1,374 @@
+{
+ "asr": {
+  "Small group (1 person)": {
+   "No guard": {
+    "rate": 1.0,
+    "succ": 300,
+    "n": 300
+   },
+   "Access control": {
+    "rate": 1.0,
+    "succ": 300,
+    "n": 300
+   },
+   "Differential privacy": {
+    "rate": 0.07,
+    "succ": 21,
+    "n": 300
+   },
+   "Small-group suppression": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 300
+   },
+   "Query auditing": {
+    "rate": 0.53,
+    "succ": 159,
+    "n": 300
+   },
+   "Both (ours)": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 300
+   },
+   "Both + l-diversity": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 300
+   }
+  },
+  "Differencing (2 queries)": {
+   "No guard": {
+    "rate": 1.0,
+    "succ": 300,
+    "n": 300
+   },
+   "Access control": {
+    "rate": 1.0,
+    "succ": 300,
+    "n": 300
+   },
+   "Differential privacy": {
+    "rate": 0.056666666666666664,
+    "succ": 17,
+    "n": 300
+   },
+   "Small-group suppression": {
+    "rate": 1.0,
+    "succ": 300,
+    "n": 300
+   },
+   "Query auditing": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 300
+   },
+   "Both (ours)": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 300
+   },
+   "Both + l-diversity": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 300
+   }
+  },
+  "Triangle (3 queries)": {
+   "No guard": {
+    "rate": 1.0,
+    "succ": 200,
+    "n": 200
+   },
+   "Access control": {
+    "rate": 1.0,
+    "succ": 200,
+    "n": 200
+   },
+   "Differential privacy": {
+    "rate": 0.04,
+    "succ": 8,
+    "n": 200
+   },
+   "Small-group suppression": {
+    "rate": 1.0,
+    "succ": 200,
+    "n": 200
+   },
+   "Query auditing": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 200
+   },
+   "Both (ours)": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 200
+   },
+   "Both + l-diversity": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 200
+   }
+  },
+  "Direct extraction": {
+   "No guard": {
+    "rate": 1.0,
+    "succ": 150,
+    "n": 150
+   },
+   "Access control": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 150
+   },
+   "Differential privacy": {
+    "rate": 0.02,
+    "succ": 3,
+    "n": 150
+   },
+   "Small-group suppression": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 150
+   },
+   "Query auditing": {
+    "rate": 1.0,
+    "succ": 150,
+    "n": 150
+   },
+   "Both (ours)": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 150
+   },
+   "Both + l-diversity": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 150
+   }
+  },
+  "Homogeneous group": {
+   "No guard": {
+    "rate": 1.0,
+    "succ": 60,
+    "n": 60
+   },
+   "Access control": {
+    "rate": 1.0,
+    "succ": 60,
+    "n": 60
+   },
+   "Differential privacy": {
+    "rate": 0.31666666666666665,
+    "succ": 19,
+    "n": 60
+   },
+   "Small-group suppression": {
+    "rate": 1.0,
+    "succ": 60,
+    "n": 60
+   },
+   "Query auditing": {
+    "rate": 1.0,
+    "succ": 60,
+    "n": 60
+   },
+   "Both (ours)": {
+    "rate": 1.0,
+    "succ": 60,
+    "n": 60
+   },
+   "Both + l-diversity": {
+    "rate": 0.0,
+    "succ": 0,
+    "n": 60
+   }
+  }
+ },
+ "benign": {
+  "No guard": {
+   "over_refusal": 0.0,
+   "accuracy": 1.0,
+   "median_relerr": 0.0,
+   "small_answered": 1.0,
+   "n_safe": 1512,
+   "n_small": 88
+  },
+  "Access control": {
+   "over_refusal": 0.0,
+   "accuracy": 1.0,
+   "median_relerr": 0.0,
+   "small_answered": 1.0,
+   "n_safe": 1512,
+   "n_small": 88
+  },
+  "Differential privacy": {
+   "over_refusal": 0.0,
+   "accuracy": 0.20833333333333334,
+   "median_relerr": 0.15704178079293007,
+   "small_answered": 1.0,
+   "n_safe": 1512,
+   "n_small": 88
+  },
+  "Small-group suppression": {
+   "over_refusal": 0.0,
+   "accuracy": 1.0,
+   "median_relerr": 0.0,
+   "small_answered": 1.0,
+   "n_safe": 1512,
+   "n_small": 88
+  },
+  "Query auditing": {
+   "over_refusal": 0.026455026455026454,
+   "accuracy": 0.9735449735449735,
+   "median_relerr": 0.0,
+   "small_answered": 0.8522727272727273,
+   "n_safe": 1512,
+   "n_small": 88
+  },
+  "Both (ours)": {
+   "over_refusal": 0.026455026455026454,
+   "accuracy": 0.9735449735449735,
+   "median_relerr": 0.0,
+   "small_answered": 0.9886363636363636,
+   "n_safe": 1512,
+   "n_small": 88
+  },
+  "Both + l-diversity": {
+   "over_refusal": 0.04563492063492063,
+   "accuracy": 0.9543650793650794,
+   "median_relerr": 0.0,
+   "small_answered": 0.9886363636363636,
+   "n_safe": 1512,
+   "n_small": 88
+  }
+ },
+ "side": {
+  "1-4": {
+   "n": 139,
+   "exact": 1.0,
+   "median_err": 0.0,
+   "coverage": 1.0
+  },
+  "5-9": {
+   "n": 196,
+   "exact": 1.0,
+   "median_err": 0.0,
+   "coverage": 1.0
+  },
+  "10-19": {
+   "n": 414,
+   "exact": 0.37922705314009664,
+   "median_err": 0.018385650224215188,
+   "coverage": 0.7840176780870908
+  },
+  "20-39": {
+   "n": 197,
+   "exact": 0.20304568527918782,
+   "median_err": 0.046777292576419216,
+   "coverage": 0.3489386071763598
+  },
+  "40-+": {
+   "n": 554,
+   "exact": 0.15342960288808663,
+   "median_err": 0.036983545674936814,
+   "coverage": 0.18716816070914913
+  }
+ },
+ "latency_us": {
+  "cell": 2.217694444281746,
+  "audit": 1.0203250010221154,
+  "rank": 31.386979522259093,
+  "ldiv": 0.0
+ },
+ "side_overall": {
+  "n": 1500,
+  "exact": 0.41133333333333333,
+  "retr_ms": 0.6352404499999599
+ },
+ "ksweep": {
+  "3": {
+   "over_refusal": 0.010148825955612667,
+   "small_answered": 1.0
+  },
+  "5": {
+   "over_refusal": 0.026478931503262988,
+   "small_answered": 0.993103448275862
+  },
+  "8": {
+   "over_refusal": 0.051683807918863935,
+   "small_answered": 1.0
+  },
+  "12": {
+   "over_refusal": 0.10152638245698893,
+   "small_answered": 0.9772375972403289
+  }
+ },
+ "dp_sweep": {
+  "0.5": {
+   "asr_mean": 0.044333333333333336,
+   "asr": {
+    "Small group (1 person)": 0.03333333333333333,
+    "Differencing (2 queries)": 0.026666666666666665,
+    "Triangle (3 queries)": 0.015000000000000003,
+    "Direct extraction": 0.013333333333333332,
+    "Homogeneous group": 0.13333333333333333
+   },
+   "accuracy": 0.11243386243386243
+  },
+  "1": {
+   "asr_mean": 0.10066666666666668,
+   "asr": {
+    "Small group (1 person)": 0.06999999999999999,
+    "Differencing (2 queries)": 0.056666666666666664,
+    "Triangle (3 queries)": 0.04,
+    "Direct extraction": 0.02,
+    "Homogeneous group": 0.3166666666666667
+   },
+   "accuracy": 0.20833333333333334
+  },
+  "5": {
+   "asr_mean": 0.341,
+   "asr": {
+    "Small group (1 person)": 0.28,
+    "Differencing (2 queries)": 0.22999999999999998,
+    "Triangle (3 queries)": 0.14499999999999996,
+    "Direct extraction": 0.13333333333333333,
+    "Homogeneous group": 0.9166666666666666
+   },
+   "accuracy": 0.546957671957672
+  },
+  "20": {
+   "asr_mean": 0.603,
+   "asr": {
+    "Small group (1 person)": 0.5633333333333334,
+    "Differencing (2 queries)": 0.51,
+    "Triangle (3 queries)": 0.475,
+    "Direct extraction": 0.4666666666666666,
+    "Homogeneous group": 1.0
+   },
+   "accuracy": 0.748015873015873
+  },
+  "100": {
+   "asr_mean": 0.9676666666666666,
+   "asr": {
+    "Small group (1 person)": 0.9566666666666667,
+    "Differencing (2 queries)": 0.9366666666666668,
+    "Triangle (3 queries)": 0.985,
+    "Direct extraction": 0.96,
+    "Homogeneous group": 1.0
+   },
+   "accuracy": 0.9067460317460317
+  }
+ },
+ "asr_mean": {
+  "No guard": 1.0,
+  "Access control": 0.8,
+  "Differential privacy": 0.10066666666666665,
+  "Small-group suppression": 0.6,
+  "Query auditing": 0.506,
+  "Both (ours)": 0.2,
+  "Both + l-diversity": 0.0
+ }
+}
